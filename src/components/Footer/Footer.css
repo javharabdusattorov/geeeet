@@ -1,0 +1,36 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css');
+
+.footer__one {
+    margin-top: 200px;
+    background: #2C343E;
+    padding: 47px 0 38px 0;
+}
+
+.footer__one-img {
+    width: 100%;
+}
+
+.footer__one-ul {
+    margin-top: 9px;
+}
+
+.footer__one-link {
+    font-size: 12px;
+    color: #83888F;
+    font-weight: bold;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    margin-left: 25px;
+    font-family: var(--b-b);
+    transition: 0.5s;
+}
+
+.footer__one-link:hover {
+    color: #FEFCF7;
+}
+
+.footer-icon {
+    font-size: 25px;
+    color: #FEFCF7;
+    margin-left: 30px;
+}

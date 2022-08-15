@@ -1,0 +1,23 @@
+
+@font-face {
+  font-family: 'Fraunces-ThinItalic' ;
+  src: url(./assets/font/Fraunces_72pt_SuperSoft-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: 'Barlow-Bold' ;
+  src: url(./assets/font/Barlow-Bold.ttf);
+}
+
+:root {
+    --f-t: 'Fraunces-ThinItalic';
+    --b-b: 'Barlow-Bold';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    box-sizing: border-box !important;
+    list-style: none !important;
+}
