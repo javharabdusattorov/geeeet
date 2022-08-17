@@ -92,4 +92,43 @@ export default App;
     Componentlarimizga img va fonts larni qo'shish.
     src papkasining ichidan assets papkasini ochib olamiz va uning ichiga fonts va img papkalarini ham birdan ochib olamiz. Loader qilish maqsadida yangi Loader componenti va uning Loader.jsx component ochib olamiz. svg ko'rinishidagi loader yuklab olamiz va uni asosiy App componentiga ulab qo'yamiz. loader function'iga img yozamiz va uni src qismiga shundoqqina yozb ketaolmaymiz. Avval rasmni import qilib olamiz xuddi o'zgaruvchidek.
     import LoaderSvg from '../../assets/img/img.svg'; va img'ning src qismiga {LoaderSvg} deb yozamiz va img tayyor. Faqat qo'shtirnoqlarsiz.
+
+
+    Additional JavaScript
+    
+    #1 Array vazifasini bajaradigan object xolati
+    const obj = {name:"John", surname:"Doe"}
+    
+    console.log(obj['name']) // John
+    
+    #2 Array length
+    const arr = []
+    arr.push = 12;
+    arr[5] = 14;
+    
+    console.log(arr.lenth) // 6 - chunki arr oxirgi element'ni oladi va unga 1 ni qo'shib chiqaradi. Orasi empty bo'lsaham. 
+    Ex: [12, empty * 4, 14] = 6
+
+    #3 Object vazifasini bajaradigan array xolati
+    const arr = []
+    arr.name = "John";
+
+    console.log(arr['name']) // John - chunki bir xil paytlarda array ham object vazifasini bajaradi.
+
+    #4 O'zgarmaydigan object qiymati
+    const obj = {name:"John", surname:"Doe"}
+    Object.defineProperty(obj, 'age' {
+      value: 21,
+      writeable: false;
+    })
+    
+    obj.age = 32
+    32  // Lekin haqiqiy object'da qiymat o'zgarmaydi!
+
+    #5 Array'ni find() function'niga o'zgartirish
+    Array.prototype.find = function() { console.log('I'm Array') }
+    arr.find()
+    I'm Array
+
+    
 */

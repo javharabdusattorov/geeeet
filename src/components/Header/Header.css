@@ -56,17 +56,3 @@ header {
     margin-top: 32px;
 }
 
-.header__simple-btn {
-    font-size: 18px;
-    color: #FEFCF7;
-    padding: 16px 32px 15px 32px;
-    background: #0E8784;    
-    border-radius: 6px;
-    margin-top: 50px;
-    border: none;
-    transition: 0.5s;
-}
-
-.header__simple-btn:hover {
-    transform: rotate(360deg);
-}

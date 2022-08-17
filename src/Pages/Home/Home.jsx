@@ -3,6 +3,7 @@ import './Home.css';
 
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
+import Button from '../../components/Button/Button';
 
 // Import images
 import headerBg from '../../assets/img/header-fon.jpg'; 
@@ -33,7 +34,7 @@ function Home() {
                             <p className="header__simple-text">Start your mornings with the world’s best coffees. Try our expertly
                                 curated artisan coffees from our
                                 best roasters delivered directly to your door, at your schedule.</p>
-                            <button className="header__simple-btn">Create your plan</button>
+                            <Button />
                         </div>
                     </div>
                 </div>
@@ -134,7 +135,7 @@ function Home() {
                                 <p class="number__text">Select from our evolving range of artisan coffees. Our beans are ethically
                                     sourced and we pay
                                     fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
-                                <button class="number__button">Create your plan</button>
+                                <Button />
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-6 col-12">
                                 <img src={bigTwo} alt="" />
